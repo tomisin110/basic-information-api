@@ -67,7 +67,7 @@ http://127.0.0.1:8000/api/
   ```json
   {
      "status": "Success",
-    "url": "https://github.com",
+    "url": "https://github.com/tomisin110/basic-information-api",
     "email": "ayoemma188@gmail.com",
     "datetime": "2025-01-29T13:32:37+00:00"
   }
