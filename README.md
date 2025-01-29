@@ -71,7 +71,7 @@ https://basic-information-1bh3l.kinsta.app/api/
     "github_url": "https://github.com/tomisin110/basic-information-api",
   }
   ```
-  ![Example Usage](./public/Screenshot%20(45).png)
+  ![Example Usage](./public/Screenshot%20(46).png)
 
 ---
 
