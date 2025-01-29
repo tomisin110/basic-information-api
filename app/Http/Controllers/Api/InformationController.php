@@ -19,6 +19,11 @@ class InformationController extends Controller
         // Get the current datetime in ISO 8601 format with milliseconds and 'Z' for UTC
         $currentDateTime = Carbon::now('UTC')->format('Y-m-d\TH:i:s.v\Z');
 
+        // Ensure the 'Z' is included in the datetime string
+        if (!str_ends_with($currentDateTime, 'Z')) {
+            $currentDateTime .= 'Z';
+        }
+
         // Return JSON response with unescaped slashes
         return response()->json([
             'email' => $email,
