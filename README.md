@@ -55,7 +55,7 @@ Your Laravel API will now be running locally at `http://127.0.0.1:8000`.
 
 ### Base URL
 ```
-http://127.0.0.1:8000/api/
+https://basic-information-1bh3l.kinsta.app/api/
 ```
 
 ### Endpoints
