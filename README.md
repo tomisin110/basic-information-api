@@ -68,7 +68,7 @@ https://basic-information-1bh3l.kinsta.app/api/
   {
      "email": "ayoemma188@gmail.com",
      "current_datetime": "2025-01-29T13:32:37+00:00",
-    "github_url": "https://github.com/tomisin110/basic-information-api",
+    "github_url": "<https://github.com/tomisin110/basic-information-api>",
   }
   ```
   ![Example Usage](./public/Screenshot%20(46).png)
