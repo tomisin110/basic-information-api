@@ -16,8 +16,8 @@ class InformationController extends Controller
         $email = 'ayoemma188@gmail.com';
         $baseUrl = 'https://github.com/tomisin110/basic-information-api';
 
-        // Get the current datetime in ISO 8601 format (UTC)
-        $currentDateTime = Carbon::now('UTC')->toIso8601String();
+        // Get the current datetime in ISO 8601 format with milliseconds and 'Z' for UTC
+        $currentDateTime = Carbon::now('UTC')->format('Y-m-d\TH:i:s.v\Z');
 
         // Return JSON response with unescaped slashes
         return response()->json([
