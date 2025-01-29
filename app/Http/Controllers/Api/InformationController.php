@@ -28,7 +28,7 @@ class InformationController extends Controller
             'email' => $email,
             'current_datetime' => $currentDateTime,
             'github_url' => $generatedUrl,
-            
-        ]);
+        ], 200, [], JSON_UNESCAPED_SLASHES);
+        
     }
 }
