@@ -25,7 +25,6 @@ class InformationController extends Controller
 
         // Return JSON response
         return response()->json([
-            'status'=> 'Success',
             'email' => $email,
             'current_datetime' => $currentDateTime,
             'github_url' => $generatedUrl,
