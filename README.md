@@ -1,7 +1,7 @@
-# Basic Information Project
+# HNG STAGE ZERO Project
 
 ## Description
-This project is about providing basic information regarding its creation, including details about the developer and the current time .
+This project is about providing basic information regarding its creation, including details about the developer's email, the current time in ISO 8601 format and the github url to the project .
 
 ## Setup Instructions
 
