@@ -66,7 +66,6 @@ https://basic-information-1bh3l.kinsta.app/api/
 - **Response Format:**
   ```json
   {
-     "status": "Success",
      "email": "ayoemma188@gmail.com",
      "current_datetime": "2025-01-29T13:32:37+00:00",
     "github_url": "https://github.com/tomisin110/basic-information-api",
