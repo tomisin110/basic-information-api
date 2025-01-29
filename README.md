@@ -72,10 +72,11 @@ https://basic-information-1bh3l.kinsta.app/api/
     "github_url": "https://github.com/tomisin110/basic-information-api",
   }
   ```
+  ![Example Usage](./public/Screenshot%20(45).png)
 
 ---
 
-## More Laravel Development Resources
+## Hire PHP Developers From HNG
 
 For hiring Laravel developers, check out:
 [Hire PHP Developers](https://hng.tech/hire/php-developers)
