@@ -15,7 +15,7 @@ class InformationController extends Controller
     {
         // Define the fixed email and URL
         $email = 'ayoemma188@gmail.com';
-        $baseUrl = '<https://github.com/tomisin110/basic-information-api>';
+        $baseUrl = 'https://github.com/tomisin110/basic-information-api';
 
         // Get the current datetime in ISO 8601 format
         $currentDateTime = Carbon::now()->toIso8601String();
