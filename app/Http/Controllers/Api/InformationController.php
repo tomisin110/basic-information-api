@@ -3,7 +3,6 @@
 namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
-use Illuminate\Http\Request;
 use Illuminate\Support\Carbon;
 
 class InformationController extends Controller
@@ -17,18 +16,14 @@ class InformationController extends Controller
         $email = 'ayoemma188@gmail.com';
         $baseUrl = 'https://github.com/tomisin110/basic-information-api';
 
-        // Get the current datetime in ISO 8601 format
-        $currentDateTime = Carbon::now()->toIso8601String();
+        // Get the current datetime in ISO 8601 format (UTC)
+        $currentDateTime = Carbon::now('UTC')->toIso8601String();
 
-        // Generate URL with parameters
-        $generatedUrl = "{$baseUrl}";
-
-        // Return JSON response
+        // Return JSON response with unescaped slashes
         return response()->json([
             'email' => $email,
             'current_datetime' => $currentDateTime,
-            'github_url' => $generatedUrl,
+            'github_url' => $baseUrl,
         ], 200, [], JSON_UNESCAPED_SLASHES);
-        
     }
 }
